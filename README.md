@@ -36,7 +36,3 @@ To achieve this the following steps were followed:
 ### Results
 
 The results are exposed under `claim_event_decay_loss.csv` table. 
-
-### Important Observation
-
-Migration events were **NOT** taken into account to calculate the total decay lost. Through the study, we found that at least `51325` did receive a migration event in history given that they had a negative loss amount but unfortunately knowing from who they got that migration is not possible through events only.
