@@ -1,6 +1,7 @@
 ### Description
 
 The end goal was to calculate the amount that each sender of the triggered claim events in history had failed to receive due to a decay bug. In other words:
+
 `how much should the user had received` - `how much did the user actually received`
 
 To achieve this the following steps were followed:
