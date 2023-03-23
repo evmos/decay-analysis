@@ -1,4 +1,6 @@
-### Description
+The process is described in detail inside of the `decay-data.ipynb` file.
+
+### Overview
 
 The end goal was to calculate the amount that each sender of the triggered claim events in history had failed to receive due to a decay bug. In other words:
 
@@ -35,4 +37,4 @@ To achieve this the following steps were followed:
 
 ### Results
 
-The results are exposed under `claim_event_decay_loss.csv` table. 
+The results are exposed under `decay_lost_results.csv` table. 
