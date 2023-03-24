@@ -1,4 +1,8 @@
-The process is described in detail inside of the [decay-data.ipynb](https://github.com/evmos/decay-analysis/blob/main/decay-data.ipynb) file.
+Addresses that claimed during early decay periods received a smaller claimable amount than expected.
+
+To investigate this issue, all of the `claims` and `merge_claim_records` events that ocurred in history where collected and then analyzed in this repo through pandas and jupyter notebook.
+
+Details about how the data was collected can be found at [decay-data](https://github.com/evmos/decay-data).
 
 ### Overview
 
@@ -24,9 +28,9 @@ To achieve this the following steps were followed:
     - `amount_claimed` - the amount the address actually received on the event
     - `lost_amount` - the difference between `claimable_at_event` and `amount_claimed`
         - This is the amount that should be returned.
-    
-    Details about how this information was processed can be found under `./decay-data.ipynb`
-    
+
+Details about how this information was processed can be found under `./decay-data.ipynb`
+
 
 ### Dependencies
 
@@ -37,4 +41,4 @@ To achieve this the following steps were followed:
 
 ### Results
 
-The results are exposed under `decay_lost_results.csv` table. 
+The results are exposed under `decay_lost_results.csv` table.
