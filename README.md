@@ -1,4 +1,4 @@
-The process is described in detail inside of the `decay-data.ipynb` file.
+The process is described in detail inside of the [decay-data.ipynb](https://github.com/evmos/decay-analysis/blob/main/decay-data.ipynb) file.
 
 ### Overview
 
